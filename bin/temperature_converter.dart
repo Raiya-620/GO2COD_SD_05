@@ -47,7 +47,7 @@ void main() {
   }
 }
 
-/// Function to get temperature input from the user
+
 double? getTemperatureInput() {
   stdout.write('Enter the temperature value: ');
   String? input = stdin.readLineSync();
@@ -60,7 +60,7 @@ double? getTemperatureInput() {
   }
 }
 
-/// Conversion functions
+
 double celsiusToFahrenheit(double celsius) => (celsius * 9 / 5) + 32;
 double fahrenheitToCelsius(double fahrenheit) => (fahrenheit - 32) * 5 / 9;
 double celsiusToKelvin(double celsius) => celsius + 273.15;
